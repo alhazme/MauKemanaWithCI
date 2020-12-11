@@ -70,10 +70,10 @@
 		F136B666255E012A006CB530 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		F136B66B255E229B006CB530 /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
 		F136B670255EBDA0006CB530 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		F13A9F5B2571BC6200AAA3A7 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = ../Modules/Core/Core; sourceTree = "<group>"; };
-		F13A9F7925726F9800AAA3A7 /* Place */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Place; path = ../Modules/Place/Place; sourceTree = "<group>"; };
 		F1465B5825608E3A00750D1D /* PlaceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceRow.swift; sourceTree = "<group>"; };
 		F1465B722561106200750D1D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		F16222D1258390FB007E1B4B /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = ../Modules/Core/Core; sourceTree = "<group>"; };
+		F16222D225839101007E1B4B /* Place */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Place; path = ../Modules/Place/Place; sourceTree = "<group>"; };
 		F17D410E254D770A00D298A0 /* MauKemana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MauKemana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17D4124254D770D00D298A0 /* MauKemanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MauKemanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17D4128254D770D00D298A0 /* MauKemanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauKemanaTests.swift; sourceTree = "<group>"; };
@@ -183,8 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				F1968B41254E29C000DEC259 /* .swiftlint.yml */,
-				F13A9F5B2571BC6200AAA3A7 /* Core */,
-				F13A9F7925726F9800AAA3A7 /* Place */,
+				F16222D1258390FB007E1B4B /* Core */,
+				F16222D225839101007E1B4B /* Place */,
 				F17D4110254D770A00D298A0 /* MauKemana */,
 				F17D4127254D770D00D298A0 /* MauKemanaTests */,
 				F17D4132254D770D00D298A0 /* MauKemanaUITests */,
