@@ -15,10 +15,10 @@
 		F13A9F6D2571C4D700AAA3A7 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F13A9F6C2571C4D700AAA3A7 /* SDWebImageSwiftUI */; };
 		F13A9F732571C78700AAA3A7 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F13A9F722571C78700AAA3A7 /* Realm */; };
 		F13A9F752571C78700AAA3A7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F13A9F742571C78700AAA3A7 /* RealmSwift */; };
-		F13A9F88257375DA00AAA3A7 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = F13A9F87257375DA00AAA3A7 /* Core */; };
-		F13A9F8A257375DF00AAA3A7 /* Place in Frameworks */ = {isa = PBXBuildFile; productRef = F13A9F89257375DF00AAA3A7 /* Place */; };
 		F1465B5925608E3B00750D1D /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1465B5825608E3A00750D1D /* PlaceRow.swift */; };
 		F1465B732561106200750D1D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1465B722561106200750D1D /* AboutView.swift */; };
+		F16379CE2583B16900B838BA /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = F16379CD2583B16900B838BA /* Core */; };
+		F16379D02583B16900B838BA /* Place in Frameworks */ = {isa = PBXBuildFile; productRef = F16379CF2583B16900B838BA /* Place */; };
 		F17D4129254D770D00D298A0 /* MauKemanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D4128254D770D00D298A0 /* MauKemanaTests.swift */; };
 		F17D4134254D770D00D298A0 /* MauKemanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D4133254D770D00D298A0 /* MauKemanaUITests.swift */; };
 		F17D4150254D778700D298A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17D4145254D778700D298A0 /* Assets.xcassets */; };
@@ -114,11 +114,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13A9F8A257375DF00AAA3A7 /* Place in Frameworks */,
+				F16379D02583B16900B838BA /* Place in Frameworks */,
 				F13A9F752571C78700AAA3A7 /* RealmSwift in Frameworks */,
 				F13A9F732571C78700AAA3A7 /* Realm in Frameworks */,
 				F13A9F6D2571C4D700AAA3A7 /* SDWebImageSwiftUI in Frameworks */,
-				F13A9F88257375DA00AAA3A7 /* Core in Frameworks */,
+				F16379CE2583B16900B838BA /* Core in Frameworks */,
 				F13A9F672571C48A00AAA3A7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,8 +521,8 @@
 				F13A9F6C2571C4D700AAA3A7 /* SDWebImageSwiftUI */,
 				F13A9F722571C78700AAA3A7 /* Realm */,
 				F13A9F742571C78700AAA3A7 /* RealmSwift */,
-				F13A9F87257375DA00AAA3A7 /* Core */,
-				F13A9F89257375DF00AAA3A7 /* Place */,
+				F16379CD2583B16900B838BA /* Core */,
+				F16379CF2583B16900B838BA /* Place */,
 			);
 			productName = MauKemana;
 			productReference = F17D410E254D770A00D298A0 /* MauKemana.app */;
@@ -1062,11 +1062,11 @@
 			package = F13A9F712571C78700AAA3A7 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
 		};
-		F13A9F87257375DA00AAA3A7 /* Core */ = {
+		F16379CD2583B16900B838BA /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
 		};
-		F13A9F89257375DF00AAA3A7 /* Place */ = {
+		F16379CF2583B16900B838BA /* Place */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Place;
 		};
