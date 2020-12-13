@@ -20,6 +20,8 @@
 		F16FCE6025860BB3004F4781 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F16FCE5F25860BB3004F4781 /* Realm */; };
 		F16FCE7025862758004F4781 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = F16FCE6F25862758004F4781 /* Core */; };
 		F16FCE7225862758004F4781 /* Place in Frameworks */ = {isa = PBXBuildFile; productRef = F16FCE7125862758004F4781 /* Place */; };
+		F16FCE7A258628BE004F4781 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FCE79258628BE004F4781 /* ActivityIndicator.swift */; };
+		F16FCE7F25862BB6004F4781 /* CustomEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FCE7E25862BB6004F4781 /* CustomEmptyView.swift */; };
 		F17D4129254D770D00D298A0 /* MauKemanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D4128254D770D00D298A0 /* MauKemanaTests.swift */; };
 		F17D4134254D770D00D298A0 /* MauKemanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D4133254D770D00D298A0 /* MauKemanaUITests.swift */; };
 		F17D4150254D778700D298A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17D4145254D778700D298A0 /* Assets.xcassets */; };
@@ -76,6 +78,8 @@
 		F1465B722561106200750D1D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		F16FCE6425860C2E004F4781 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = Modules/Core/Core; sourceTree = "<group>"; };
 		F16FCE6525860C33004F4781 /* Place */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Place; path = Modules/Place/Place; sourceTree = "<group>"; };
+		F16FCE79258628BE004F4781 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		F16FCE7E25862BB6004F4781 /* CustomEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmptyView.swift; sourceTree = "<group>"; };
 		F17D410E254D770A00D298A0 /* MauKemana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MauKemana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17D4124254D770D00D298A0 /* MauKemanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MauKemanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17D4128254D770D00D298A0 /* MauKemanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauKemanaTests.swift; sourceTree = "<group>"; };
@@ -370,6 +374,8 @@
 			children = (
 				F136B670255EBDA0006CB530 /* SearchBar.swift */,
 				F1465B5825608E3A00750D1D /* PlaceRow.swift */,
+				F16FCE79258628BE004F4781 /* ActivityIndicator.swift */,
+				F16FCE7E25862BB6004F4781 /* CustomEmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -683,6 +689,7 @@
 				F1DDD070255C2E580093BE4C /* HomeRouter.swift in Sources */,
 				F1968B70254ECED900DEC259 /* HomeUseCase.swift in Sources */,
 				F1DDD066255C2CBB0093BE4C /* HomeDetailView.swift in Sources */,
+				F16FCE7F25862BB6004F4781 /* CustomEmptyView.swift in Sources */,
 				F1DDD06B255C2D930093BE4C /* HomeDetailPresenter.swift in Sources */,
 				F1465B5925608E3B00750D1D /* PlaceRow.swift in Sources */,
 				F1968BAA25518E4500DEC259 /* HomeView.swift in Sources */,
@@ -692,6 +699,7 @@
 				F1968B13254E209200DEC259 /* PlacesResponse.swift in Sources */,
 				F136B66C255E229B006CB530 /* FavoriteRouter.swift in Sources */,
 				F1968B98254F76AB00DEC259 /* HomePresenter.swift in Sources */,
+				F16FCE7A258628BE004F4781 /* ActivityIndicator.swift in Sources */,
 				F1968B35254E289600DEC259 /* PlacesRemoteDataSource.swift in Sources */,
 				F17D416C254D79AF00D298A0 /* ContentView.swift in Sources */,
 			);

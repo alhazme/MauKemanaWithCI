@@ -38,34 +38,49 @@ struct FavoriteView: View {
         NavigationView {
             ZStack {
                 VStack {
-                    SearchBar(text: $searchText)
-                        .onChange(of: searchText, perform: { _ in
-                            if searchText.count > 0 {
-                                self.presenter.search(keyword: searchText)
-                            } else {
-                                self.presenter.load()
-                            }
-                        })
-                        if presenter.isLoading {
-                            Spacer()
-                        } else if presenter.isError {
-                            Spacer()
-                        } else if presenter.list.isEmpty {
-                            Spacer()
-                        } else {
-                            ScrollView(.vertical, showsIndicators: false) {
-                                ForEach(
-                                    self.presenter.list,
-                                    id: \.id
-                                ) { place in
-                                    ZStack {
-                                        linkBuilder(for: place) {
-                                            PlaceRow(place: place)
-                                        }.buttonStyle(PlainButtonStyle())
-                                    }
+                    if presenter.isLoading {
+                        Spacer()
+                        VStack {
+                            Text("Loading...")
+                            ActivityIndicator()
+                        }
+                        Spacer()
+                    } else if presenter.isError {
+                        Spacer()
+                        CustomEmptyView(
+                            image: "connection",
+                            title: "Please Check Your Internet Connection"
+                        )
+                        Spacer()
+                    } else if presenter.list.isEmpty {
+                        Spacer()
+                        CustomEmptyView(
+                            image: "empty",
+                            title: "Destination is Empty"
+                        )
+                        Spacer()
+                    } else {
+                        SearchBar(text: $searchText)
+                            .onChange(of: searchText, perform: { _ in
+                                if searchText.count > 0 {
+                                    self.presenter.search(keyword: searchText)
+                                } else {
+                                    self.presenter.load()
+                                }
+                            })
+                        ScrollView(.vertical, showsIndicators: false) {
+                            ForEach(
+                                self.presenter.list,
+                                id: \.id
+                            ) { place in
+                                ZStack {
+                                    linkBuilder(for: place) {
+                                        PlaceRow(place: place)
+                                    }.buttonStyle(PlainButtonStyle())
                                 }
                             }
                         }
+                    }
                 }
                 
             }
