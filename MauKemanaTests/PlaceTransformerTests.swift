@@ -278,5 +278,5 @@ final class PlaceTransformerTests: XCTestCase {
         XCTAssertEqual(result.like, placeModuleEntity.like)
         XCTAssertEqual(result.image, placeModuleEntity.image)
     }
+    
 }
-
