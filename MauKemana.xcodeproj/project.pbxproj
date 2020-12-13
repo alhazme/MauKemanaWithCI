@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F105C93A255AB6C50003E852 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105C939255AB6C50003E852 /* Injection.swift */; };
+		F114006E2585C5AB0097248D /* PlaceTransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114006D2585C5AB0097248D /* PlaceTransformerTests.swift */; };
 		F136B667255E012A006CB530 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F136B666255E012A006CB530 /* FavoriteView.swift */; };
 		F136B66C255E229B006CB530 /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F136B66B255E229B006CB530 /* FavoriteRouter.swift */; };
 		F136B671255EBDA0006CB530 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F136B670255EBDA0006CB530 /* SearchBar.swift */; };
@@ -67,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		F105C939255AB6C50003E852 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		F114006D2585C5AB0097248D /* PlaceTransformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTransformerTests.swift; sourceTree = "<group>"; };
 		F136B666255E012A006CB530 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		F136B66B255E229B006CB530 /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
 		F136B670255EBDA0006CB530 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			children = (
 				F17D4128254D770D00D298A0 /* MauKemanaTests.swift */,
 				F17D412A254D770D00D298A0 /* Info.plist */,
+				F114006D2585C5AB0097248D /* PlaceTransformerTests.swift */,
 			);
 			path = MauKemanaTests;
 			sourceTree = "<group>";
@@ -699,6 +702,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F17D4129254D770D00D298A0 /* MauKemanaTests.swift in Sources */,
+				F114006E2585C5AB0097248D /* PlaceTransformerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
